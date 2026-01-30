@@ -1,0 +1,65 @@
+/* --- AJUSTES PARA TAMAÑO FIJO --- */
+
+body {
+    background: linear-gradient(-45deg, #e0f7fa, #f3e5f5, #f0f4c3, #ffffff);
+    background-size: 400% 400%;
+    animation: gradientBG 30s ease infinite;
+    color: var(--electric-yellow);
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    /* Permitimos scroll si la ventana es pequeña */
+    overflow: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinea al inicio para que el scroll funcione bien */
+    padding: 20px;
+    user-select: none;
+}
+
+.mpc-body {
+    background: linear-gradient(135deg, #111 0%, #050505 100%);
+    /* TAMAÑO FIJO AQUÍ */
+    width: 1100px; 
+    height: 750px;
+    
+    padding: 20px;
+    border-radius: 12px;
+    border: 3px solid #333;
+    box-shadow: 0 50px 100px rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-shrink: 0; /* Evita que el contenedor se encoja */
+}
+
+.left-col {
+    /* Ancho fijo para la columna de pads */
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.right-col {
+    /* El resto del espacio para el secuenciador */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 0; /* Evita desbordamiento de flex interno */
+}
+
+/* Ajuste adicional para los pads para que no se deformen */
+.pads-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr); /* Filas iguales */
+    gap: 8px;
+    background: var(--panel-dark);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    flex-grow: 1;
+    box-shadow: inset 0 0 20px #000;
+}
