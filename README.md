@@ -12,14 +12,20 @@ Control total desde una interfaz unificada
 Exportación directa del resultado final
 Todo ocurre en tiempo real, directamente en el navegador, sin dependencias externas.
 <img width="1905" height="799" alt="image" src="https://github.com/user-attachments/assets/5453d7c1-e345-49c4-bd6b-5ab27226aef5" />
+
 Arquitectura funcional
 La máquina se estructura en cuatro bloques clave:
 1. Motor de Audio (Web Audio API)
 Síntesis programática de percusión, bajos e instrumentos melódicos
 <img width="711" height="632" alt="image" src="https://github.com/user-attachments/assets/6287654d-5e37-4791-8587-09ee36ffa693" />
+
 Control de pitch, drive (distorsión), eco y volumen
 Procesamiento global con saturación y delay
+<img width="115" height="66" alt="image" src="https://github.com/user-attachments/assets/4c49ce95-6681-4189-ab5b-690632dc8336" />
+<img width="716" height="90" alt="image" src="https://github.com/user-attachments/assets/720466aa-6a3f-463a-bd66-f7712506bd6c" />
+
 Visualización de espectro en tiempo real mediante AnalyserNode
+
 3. Secuenciador por Pasos (16 Steps)
 Secuenciador horizontal de 16 pasos por pista
 Activación/desactivación directa por clic
