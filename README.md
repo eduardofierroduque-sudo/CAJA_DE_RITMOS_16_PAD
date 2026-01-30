@@ -21,7 +21,7 @@ Síntesis programática de percusión, bajos e instrumentos melódicos
 
 Control de pitch, drive (distorsión), eco y volumen
 Procesamiento global con saturación y delay
-<img width="115" height="66" alt="image" src="https://github.com/user-attachments/assets/4c49ce95-6681-4189-ab5b-690632dc8336" />
+
 <img width="716" height="90" alt="image" src="https://github.com/user-attachments/assets/720466aa-6a3f-463a-bd66-f7712506bd6c" />
 
 Visualización de espectro en tiempo real mediante AnalyserNode
