@@ -1,4 +1,5 @@
 FIERRODUQUE XR-16 COMPACT  TIPO AKAI SOLO PARA PC
+Juega Aquí:
 https://eduardofierroduque-sudo.github.io/CAJA_DE_RITMOS_16_PAD/
 FIERRODUQUE XR-16 COMPACT es una máquina de música digital basada en navegador, diseñada para la creación, secuenciación y exportación de patrones musicales en tiempo real. El sistema replica la lógica de una groovebox / MPC compacta, integrando síntesis sonora, secuenciador por pasos y grabación de audio en un único flujo de trabajo.
 Esta versión está optimizada exclusivamente para PC, priorizando rendimiento, control preciso y estabilidad en entornos de escritorio.
